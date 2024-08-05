@@ -1,0 +1,64 @@
+* {
+    padding: 0 ; 
+    margin: 0 ;
+    box-sizing:border-box ;
+    font-family:"Bona Nova SC", serif;
+}
+
+body{
+    background-color: orange;
+}
+
+
+
+.container {
+    font-size: 20px;
+    background-color: brown;
+    max-width: vw;
+    padding: 3em;
+    border-radius: 2em;
+}
+.letter-container{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:0.6em;
+}
+#letter-container button{
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 0.3em; 
+    background-color: crimson;
+cursor: pointer;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 30px;
+    
+}
+
+#user-input-section{
+    display: flex;
+    justify-content: center;
+    font-size: 2px;
+    margin: 0.6em 1.2em;
+}
+
+#message{
+    font-size: 4px;
+    color: burlywood;
+}
+
+#new-game-button{
+    font-size: 1.25em;
+    padding: 2px;
+    background-color: blueviolet;
+    border: 1px bisque;
+    cursor: pointer;
+    color: chartreuse;
+}
+
+
+
