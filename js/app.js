@@ -50,14 +50,16 @@ function updateDisplay() {
 function checkGuess(){
     let guess = inputEl.value 
 inputEl.value = ''
+let rightGuess = false
 for (let i = 0;i < selectedCharacter.length; i++){
     if (selectedCharacter[i] === guess) {
         guessedCharacter[i] = guess; 
         rightGuess = true 
     
     }
-    let rightGuess = false
+    
 }
+
 if (!rightGuess) {
     if (!wrongTile.includes(guess)) {
         wrongTile.push(guess);
@@ -75,15 +77,26 @@ updateMessage()
 } else if(rightGuess) {
     msg = "Great Job! keep going!"
 updateMessage()
-} 
 } else {
-    msg = "Try Again Sorry"
+    msg = "Try Again Sorry!"
     updateMessage()
 }
+}
+function handleTileClick(e) {
+    console.log(e.target.textContent);
+    inputEl.value = e.target.textContent;
+    checkGuess();
+}
 
+function init(){
+    wrongTile = []
+    maxWrong = 6;
+    selectedCharacter = characterNames[Math.floor(Math.random()* characterNames.length)];
+    guessedCharacter = Array(selectedCharacter.length).fill('');
+    updateMessage("New game started! Make your first guess.");
+    updateDisplay()
+}
 
-
-checkGuess()
 
 
 
@@ -98,7 +111,15 @@ console.log(inputEl)
 })
 })
 console.log(inputEl)
-// inputEl.forEach((input)=>{
-//     input.addEventListener("click",tileEl)
-// })
 
+function disableTiles(){
+    tileEl.forEach(tile => {
+        tile.removeEventListener("click",handleTileClick);
+    });
+}
+
+
+
+newGameBtnEl.addEventListener("click", init);
+
+init();

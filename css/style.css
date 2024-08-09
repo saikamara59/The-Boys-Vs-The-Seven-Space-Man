@@ -8,83 +8,126 @@
 body{
     
     display: flex;
-    flex-direction: column;
-    border-color:blue ;
     text-align: center;
-    
-    ;
-}
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #121212;
+    }
+
 .background-image {
     width: 75%;
     height: 30px;
     height: 100vh;
     background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3730043-0.png); 
     background-size: cover;
+    position: absolute;
+    min-height: 100vh;
 }
 
 .container{
-  margin-top: 30px;
-  border-style: groove;
-  border-radius: 12px;
-  border-color:silver;
-  background-color:beige;
-  width: 640px;
+  background-color:transparent;
+  width: 100%;
+  padding:20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(red);
+  max-width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
   
 }
- .row {
-    text-align: center;
+.keyboard {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 17px;
+}
+ .key-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
  }
-header {
-    height: 100px;
-    background-color: salmon;
-    color: honeydew;
-    font-size: 24px;
-    font-family: "Bona Nova SC",serif;
-    padding: 14px;
-}
-
-.content{
-    display:inline;
-    
-}
-
-
-
 .key-tile{
- display: inline-block;   
- padding: 20px;
- color:black;
+    background-color:salmon;
+    color: black;
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    user-select: none;
 }
+
 
 
 
 h1 {
     text-align: center;
     margin-top: 0;
-    font-size: 41px;
-    
+    font-size: 35px;
+    color: #ff4545
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 11px;
+    color: silver
 }
 
 #user-input-section{
-    display: flex;
-    justify-content: center;
-    font-size: 2px;
-    margin: 1px 1.2em;
-    text-align: center;
-    border: 2px black;
+    margin-top: 40px;
+    width: 200px;
 }
-
-#message{
-    font-size: 20px;
-    color: forestgreen;
-}
-#new-game-button{
-    border-style: groove;
-    background-color: aliceblue;
-    padding:6px;
-    position:absolute;
+#input {
+    font-size: 2.5rem;
+    padding: 8px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: none;
+    background-color:white;
+    color: salmon;
+    letter-spacing: 8px;
 }
 
 
-@media only screen and (max-width:520px) 
-{}
+#new-game-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    background-color:transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 520px) {
+    /* Adjust styles for smaller screens */
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #input {
+        font-size: 1.8rem;
+    }
+
+    #new-game-button {
+        font-size: 1em;
+    }
+
+    .key-tile {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
