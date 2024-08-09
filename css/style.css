@@ -82,18 +82,18 @@ h2 {
 
 #user-input-section{
     margin-top: 40px;
-    width: 200px;
+    width: 100%;
 }
 #input {
     font-size: 2.5rem;
     padding: 8px;
-    width: 80%;
-    max-width: 500px;
+    width: 70%;
+    max-width: 100%;
     border-radius: 5px;
     border: none;
     background-color:white;
     color: salmon;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
 }
 
 
