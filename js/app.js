@@ -29,6 +29,15 @@ let selectedCharacter =  characterNames[Math.floor(Math.random()* characterNames
 let guessedCharacter = Array(selectedCharacter.length).fill('')
 
 
+
+
+/* Cached Elements Refrences */
+
+const newGameBtnEl = document.querySelector('#new-game-button')
+const messageEl = document.querySelector('#message')
+const tileEl = document.querySelectorAll(".key-tile")
+let inputEl = document.querySelector("#input")
+
 /*----------------------------------------------Functions--------------------------------*/
 
 function updateMessage() {
@@ -38,16 +47,46 @@ function updateDisplay() {
     inputEl.value = guessedCharacter.join('')
 }
 
+function checkGuess(){
+    let guess = inputEl.value 
+inputEl.value = ''
+for (let i = 0;i < selectedCharacter.length; i++){
+    if (selectedCharacter[i] === guess) {
+        guessedCharacter[i] = guess; 
+        rightGuess = true 
+    
+    }
+    let rightGuess = false
+}
+if (!rightGuess) {
+    if (!wrongTile.includes(guess)) {
+        wrongTile.push(guess);
+        maxWrong--;
+    }
+}
+updateDisplay();
+
+if (guessedCharacter.join('') === selectedCharacter){
+    msg = ("Congrats! you have guessed the character" + selectedCharacter + "!");
+    updateMessage()
+} else if (maxWrong <= 0){
+msg = "Game Over"
+updateMessage()
+} else if(rightGuess) {
+    msg = "Great Job! keep going!"
+updateMessage()
+} 
+} else {
+    msg = "Try Again Sorry"
+    updateMessage()
+}
 
 
 
+checkGuess()
 
-/* Cached Elements Refrences */
 
-const newGameBtnEl = document.querySelector('#new-game-button')
-const messageEl = document.querySelector('#message')
-const tileEl = document.querySelectorAll(".key-tile")
-let inputEl = document.querySelector("#input")
+
 
 /* Event Listeners */
 
