@@ -1,41 +1,67 @@
 * {
-    padding: 0 ; 
-    margin: 0 ;
-    box-sizing:border-box ;
+    padding: 1% ; 
+    margin: 2px ;
+    box-sizing: border-box;
     font-family:"Bona Nova SC", serif;
 }
 
 body{
-    background-color: orange;
+    
+    display: flex;
+    flex-direction: column;
+    border-color:blue ;
+    text-align: center;
+    
+    ;
+}
+.background-image {
+    width: 75%;
+    height: 30px;
+    height: 100vh;
+    background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3730043-0.png); 
+    background-size: cover;
+}
+
+.container{
+  margin-top: 30px;
+  border-style: groove;
+  border-radius: 12px;
+  border-color:silver;
+  background-color:beige;
+  width: 640px;
+  
+}
+ .row {
+    text-align: center;
+ }
+header {
+    height: 100px;
+    background-color: salmon;
+    color: honeydew;
+    font-size: 24px;
+    font-family: "Bona Nova SC",serif;
+    padding: 14px;
+}
+
+.content{
+    display:inline;
+    
 }
 
 
 
-.container {
-    font-size: 20px;
-    background-color: brown;
-    max-width: vw;
-    padding: 3em;
-    border-radius: 2em;
+.key-tile{
+ display: inline-block;   
+ padding: 20px;
+ color:black;
 }
-.letter-container{
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    gap:0.6em;
-}
-#letter-container button{
-    height: 2.4em;
-    width: 2.4em;
-    border-radius: 0.3em; 
-    background-color: crimson;
-cursor: pointer;
-}
+
+
+
 h1 {
     text-align: center;
     margin-top: 0;
-    font-size: 30px;
+    font-size: 41px;
     
 }
 
@@ -43,22 +69,22 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 2px;
-    margin: 0.6em 1.2em;
+    margin: 1px 1.2em;
+    text-align: center;
+    border: 2px black;
 }
 
 #message{
-    font-size: 4px;
-    color: burlywood;
+    font-size: 20px;
+    color: forestgreen;
 }
-
 #new-game-button{
-    font-size: 1.25em;
-    padding: 2px;
-    background-color: blueviolet;
-    border: 1px bisque;
-    cursor: pointer;
-    color: chartreuse;
+    border-style: groove;
+    background-color: aliceblue;
+    padding:6px;
+    position:absolute;
 }
 
 
-
+@media only screen and (max-width:520px) 
+{}
