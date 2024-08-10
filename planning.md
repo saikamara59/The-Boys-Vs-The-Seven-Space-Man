@@ -1,9 +1,50 @@
-\* created a list of arrays of which characters are going to be in Hangman Game.
+# project-1
 
-- created div classes called keyboard, key-row, key-tile of which are going to contain letters mocking the keyboard look a like. / my squad helped me and megan refrence also helped
+## Project planning link: SpaceMan aka Hangman (The Boys Theme);
 
-- created an event listener to target each letter on the keyboard to make it click, used the for each method.(line 53)
-- used target value and text content to get the tiles to show on the input (was a big blocker)
-- in order to get more then one letter to pop up in the input element i had add a + into line 55
-  -created a updateMessage function inside the function i want the message element to display words .
-- created updateDisplay function for the guessed characters to be able to be inside of the input
+About:
+
+How To Play SpaceMan
+
+Description: This SpaceMan Game also knowm as the classic word-guessing game based on the Theme of The Popular Tv Show Named "The Boys". You will see a series of underscores representing the Character's name at the moment. each time u guess correct you will be one tep closer to becoming a winner and if you have more the 6 incorrect guess you have lost the game.
+
+Tips To Success of Game - Pay attention to vowels and to keep track of the letters you have guessed and also if you know alot about the show it should not be hard.
+
+## Features
+
+- Random character Selection
+- An Interactive keyboard for users
+- Dynamic Guess Tracking
+- Real Time Feedback
+- Message Updates
+- Reset And New Game Functionality
+- Responsive Design
+- Hangman Progression
+
+## Pseusdocode - Gameplan -
+
+- define the variables
+- define the arrays and objects
+- cached elements references
+- a mock keyboard for players
+- to display the length of the word each time to the user
+- prompt the user to guess a letter
+- if the guess is correct the increment correct guess tally goes up by 1
+- if the guess is incorrect the incorrect guess tally goes up by 1
+- draw the next part of the hangman
+- if the incorrect guesses is greater then 7 , tell the player they lost the game
+- if the correct guess is equal to the length of the word tell the user they have won the game.
+- initalized to start the game
+- create a new button if users want to restart
+
+## USER STORIES
+
+- As a user , when i load the page i want to the letters i can use to start the game.
+- As a user , when i click on a letter that is incorrect i will be able to see that the hangman start to come together.
+- As a user , when i click on a letter that is correct there shuold not be no hangman coming together on the page.
+- As a user , i want to be able to guess again after getting a incorrect answer
+- As a user I want to see the guess letters revealed on the screen.
+- As a user, when i guess correct i want to see a message to let me know that my guess was correct.
+- As a user , i want to know if my guess was incorrect
+  - As a user i want to know if have won or loss the game .
+  - As a user if i want to play again i want the option to reset the game

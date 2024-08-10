@@ -5,39 +5,37 @@
     font-family:"Bona Nova SC", serif;
 }
 
-body{
-    
-    display: flex;
+body {
+    background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3730043-0.png); 
+     display: flex;
+    min-height: 100vh;
+    background-image:contain;
+     background-size: auto 99%; 
+    background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     text-align: center;
     margin: 0;
     padding: 0;
-    flex-direction: column;
-    justify-content: center;
     min-height: 100vh;
-    background-color: #121212;
-    }
+    background-color: #121212; 
+    background-repeat: no-repeat; 
 
-.background-image {
-    width: 75%;
-    height: 30px;
-    height: 100vh;
-    background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3730043-0.png); 
-    background-size: cover;
-    position: absolute;
-    min-height: 100vh;
 }
 
-.container{
-  background-color:transparent;
-  width: 100%;
-  padding:20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(red);
-  max-width: 600px;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  
+
+
+ .container {
+    background-color: transparent;
+    width: 90%; 
+    max-width: 600px; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 .keyboard {
     margin-top: 20px;
@@ -53,7 +51,7 @@ body{
     margin-bottom: 8px;
  }
 .key-tile{
-    background-color:salmon;
+    background-color:darkgoldenrod;
     color: black;
     padding: 15px 20px;
     margin: 5px;
@@ -64,24 +62,23 @@ body{
     user-select: none;
 }
 
-
-
-
 h1 {
     text-align: center;
     margin-top: 0;
     font-size: 35px;
-    color: #ff4545
+    color: limegreen;
+    padding: 10px;
+    text-shadow: 1px 1px 2px;
 }
 
 h2 {
     font-size: 1.8rem;
     margin-bottom: 11px;
-    color: silver
+    color: lightcyan
 }
 
 #user-input-section{
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
 }
 #input {
@@ -89,11 +86,11 @@ h2 {
     padding: 8px;
     width: 70%;
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
-    background-color:white;
-    color: salmon;
-    letter-spacing: 7px;
+    background-color:transparent;
+    color: white;
+    letter-spacing: 5px;
 }
 
 
@@ -102,20 +99,21 @@ h2 {
     padding: 10px 20px;
     font-size: 1.3em;
     background-color:transparent;
-    color: #fff;
+    color:bisque;
     border: none;
     cursor: pointer;
 }
 
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 600px) {
     /* Adjust styles for smaller screens */
     h1 {
-        font-size: 30px;
+        font-size: 2.5rem;
+        padding: 5px;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     #input {
@@ -127,7 +125,44 @@ h2 {
     }
 
     .key-tile {
-        font-size: 1rem;
-        padding: 10px;
+        
+        padding: 5px;
     }
+
+    #hangman-image {
+        width: 80%;
+        max-width: 200px;
+    }
+}
+@media only screen and (min-width:900px){
+    h1{
+        font-size: 3rem;
+       
+    }
+    h2{
+        font-size: 2rem;
+    }
+    #input{
+        font-size: 3rem;
+    }
+    #new-game-button{
+        font-size: 1.5em;
+        padding: 15px 30px;
+    }
+    .key-tile{
+        padding: 10px 15px;
+        font-size: 1.5rem;
+    }
+    #hangman-image{
+        width: 50%;
+        max-width: 400px;
+    }
+}
+
+#hangman-image{
+    width: 30vh;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
 }
