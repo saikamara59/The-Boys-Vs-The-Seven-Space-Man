@@ -8,7 +8,7 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 
 ## Features
 
-- Random character Selection
+- Random Character Selection
 - An Interactive keyboard for users
 - Dynamic Guess Tracking
 - Real Time Feedback
@@ -17,6 +17,6 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 - Responsive Design
 - Hangman Progression
 
-* Try Out The SpaceMan game
-  Link Below
+* Try Out The SpaceMan game here
+
   [Wanna Play?](http://localhost:5501/)
