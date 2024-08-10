@@ -19,4 +19,4 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 
 * Try Out The SpaceMan game
   Link Below
-  (http://localhost:5501/)
+  [Wanna Play?](http://localhost:5501/)

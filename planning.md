@@ -10,17 +10,6 @@ Description: This SpaceMan Game also knowm as the classic word-guessing game bas
 
 Tips To Success of Game - Pay attention to vowels and to keep track of the letters you have guessed and also if you know alot about the show it should not be hard.
 
-## Features
-
-- Random character Selection
-- An Interactive keyboard for users
-- Dynamic Guess Tracking
-- Real Time Feedback
-- Message Updates
-- Reset And New Game Functionality
-- Responsive Design
-- Hangman Progression
-
 ## Pseusdocode - Gameplan -
 
 - define the variables
