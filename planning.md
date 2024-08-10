@@ -28,12 +28,12 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 
 ## USER STORIES
 
-- As a user , when i load the page i want to the letters i can use to start the game.
-- As a user , when i click on a letter that is incorrect i will be able to see that the hangman start to come together.
-- As a user , when i click on a letter that is correct there shuold not be no hangman coming together on the page.
-- As a user , i want to be able to guess again after getting a incorrect answer
+- As a user , when I load the page I want to the letters I can use to start the game.
+- As a user , when I click on a letter that is incorrect I will be able to see that the hangman start to come together.
+- As a user , when I click on a letter that is correct there should not be no hangman coming together on the page.
+- As a user , I want to be able to guess again after getting a incorrect answer
 - As a user I want to see the guess letters revealed on the screen.
-- As a user, when i guess correct i want to see a message to let me know that my guess was correct.
-- As a user , i want to know if my guess was incorrect
-  - As a user i want to know if have won or loss the game .
-  - As a user if i want to play again i want the option to reset the game
+- As a user, when I guess correct i want to see a message to let me know that my guess was correct.
+- As a user , I want to know if my guess was incorrect
+  - As a user I want to know if have won or loss the game .
+  - As a user if I want to play again I want the option to reset the game
