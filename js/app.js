@@ -78,7 +78,7 @@ msg = `Game Over! the character was ${selectedCharacter}!`;
 } else if(rightGuess) {
     msg = "Great Job! keep it going!";
 } else {
-    msg = "Try Again!";
+    msg = " Wrong Letter Try Again!";
     
 }
 updateMessage();
@@ -101,7 +101,7 @@ function init() {
             return '_'
         }
     });
-    msg = "New game started! Make your first guess.";
+    msg = "New game started! Make Your First Guess Be Aware You Only Have 6 Guesses.";
     updateMessage();
     updateDisplay();
     console.log(selectedCharacter);
