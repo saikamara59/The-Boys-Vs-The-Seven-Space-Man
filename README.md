@@ -1,5 +1,7 @@
 ## SpaceMan
 
+![Screenshot 2024-08-10 120605](https://github.com/user-attachments/assets/da1f67ba-a575-4502-84cd-cf45c58c5627)
+
 ## About
 
 Description: This SpaceMan Game also known as Hangman the classic word-guessing game based on the Theme of The Popular Tv Series called "The Boys". You will see a series of underscores representing the Character's name at the moment. each time u guess correct you will be one step closer to becoming a winner and if you have more the 6 incorrect guess you have lost the game.
@@ -23,4 +25,4 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 
 ## Technologies Used
 
-- Javascript , HTML , CSS
+- Javascript , HTML , CSS , MDN and Google , Chat Gpt
