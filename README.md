@@ -20,3 +20,7 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 * Try Out The SpaceMan game here
 
   [Wanna Play?](http://localhost:5501/)
+
+## Technologies Used
+
+- Javascript , HTML , CSS
