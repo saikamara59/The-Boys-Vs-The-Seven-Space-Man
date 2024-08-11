@@ -25,4 +25,4 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 
 ## Technologies Used
 
-- Javascript , HTML , CSS , MDN and Google , Chat Gpt
+- Javascript , HTML , CSS , MDN and Google , lab references and text book
