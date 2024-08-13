@@ -35,5 +35,5 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 - As a user I want to see the guess letters revealed on the screen.
 - As a user, when I guess correct i want to see a message to let me know that my guess was correct.
 - As a user , I want to know if my guess was incorrect
-  - As a user I want to know if have won or loss the game .
+  - As a user I want to know if i have won or loss the game .
   - As a user if I want to play again I want the option to reset the game
