@@ -1,6 +1,6 @@
 # project-1
 
-## Project planning link: SpaceMan aka Hangman (The Boys Theme);
+## Project planning link: SpaceMan aka Hangman (The Boys Vs The Seven);
 
 About:
 
