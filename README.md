@@ -22,7 +22,7 @@ Tips To Success of Game - Pay attention to the vowels and to keep track of the l
 
 * Try Out The SpaceMan game here
 
-  [Wanna Play?](http://localhost:5501/)
+  [Wanna Play?](https://saikamara59.github.io/The-Boys-Vs-The-Seven-Space-Man/)
 
 ## Technologies Used
 
