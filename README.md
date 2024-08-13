@@ -4,9 +4,9 @@
 
 ## About
 
-Description: This SpaceMan Game also known as Hangman the classic word-guessing game based on the theme of the popular tv series called "The Boys". You will see a series of underscores representing the character's name at the moment. each time u guess correct you will be one step closer to becoming a winner and if you have more the 6 incorrect guess you have lost the game.
+Description: This SpaceMan Game also known as Hangman the classic word-guessing game based on the theme of the popular tv series called "The Boys". You will see a series of underscores representing the character's name at the moment. each time u guess correct you will be one step closer to becoming a winner and if you have more the 6 incorrect guesses you have lost the game.
 
-Tips To Success of Game - Pay attention to vowels and to keep track of the letters you have guessed and also if you know alot about the show it should not be hard.
+Tips To Success of Game - Pay attention to the vowels and to keep track of the letters you have guessed and also if you know alot about the show it should not be hard.
 
 ## Features
 
@@ -25,4 +25,4 @@ Tips To Success of Game - Pay attention to vowels and to keep track of the lette
 
 ## Technologies Used
 
-- Javascript , HTML , CSS , MDN and Google , lab references and text book
+- Javascript , HTML , CSS , MDN and Google , lab references and text books
