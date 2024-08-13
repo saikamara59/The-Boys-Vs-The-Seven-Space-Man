@@ -10,7 +10,7 @@ Description: This SpaceMan Game also knowm as the classic word-guessing game bas
 
 Tips To Success of Game - Pay attention to vowels and to keep track of the letters you have guessed and also if you know alot about the show it should not be hard.
 
-## Pseusdocode - Gameplan -
+## Pseusdocode - Gameplan 
 
 - define the variables
 - define the arrays and objects
